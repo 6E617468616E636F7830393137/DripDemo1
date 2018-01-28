@@ -15,9 +15,9 @@ namespace DripDemo1.Business.CreateResponseObject
         {
             communications = concreteImplementation;
         }
-        public Entities.Models.Web_Service.Response WebServiceCall(string data)
+        public Entities.Models.Web_Service.Response WebServiceCall(string data, string input)
         {
-            return communications.ExecuteWebService(data);
+            return communications.ExecuteWebService(data, input);
         }
     }
 }

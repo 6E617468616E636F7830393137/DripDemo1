@@ -11,9 +11,9 @@ namespace DripDemo1.Business.CreateResponseObject
     {
         public class WebServiceTransaction : ICommunications
         {
-            public Response ExecuteWebService(string data)
+            public Response ExecuteWebService(string data, string input)
             {
-                return new Transactions.Request().ExecuteWebService(data);
+                return new Transactions.Request().ExecuteWebService(data, input);
             }
         }
     }

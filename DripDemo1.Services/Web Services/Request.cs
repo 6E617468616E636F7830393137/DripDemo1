@@ -8,9 +8,9 @@ namespace DripDemo1.Services.Web_Services
 {
     public class Request
     {
-        public string WebServiceValue()
+        public string WebServiceValue(string key, string input)
         {
-            return "Web Service Value";
+            return input;
         }
     }
 }

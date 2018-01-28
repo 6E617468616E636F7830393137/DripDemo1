@@ -8,6 +8,6 @@ namespace DripDemo1.Business.CreateResponseObject
 {
     public interface ICommunications
     {
-        Entities.Models.Web_Service.Response ExecuteWebService(string data);
+        Entities.Models.Web_Service.Response ExecuteWebService(string data, string input);
     }
 }
