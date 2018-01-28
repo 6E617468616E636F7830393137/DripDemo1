@@ -1,2 +1,2 @@
 # DripDemo1
-Simple Hello World using Business Layers and SOLID principles
+Console App taking user input and encoding to UTF-8 by using Business Layers and SOLID principles
