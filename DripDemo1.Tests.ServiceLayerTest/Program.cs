@@ -19,8 +19,7 @@ namespace DripDemo1.Tests.ServiceLayerTest
             Console.WriteLine($"Encoded Key (UTF-8) : {webServiceRequest.EncData}");
             Log.Info($"Encoded Key (UTF-8) : {webServiceRequest.EncData}");
             //Log.Xml($"Encoded Key (UTF-8) : {webServiceRequest.EncData}");
-            Log.Info(": : : : : End of DripDemo1.Test for Service Layer : : : : :");
-            //Log.Xml(": : : : : End of DripDemo1.Test for Service Layer : : : : :");
+            Log.Info(": : : : : End of DripDemo1.Test for Service Layer : : : : :");            
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
